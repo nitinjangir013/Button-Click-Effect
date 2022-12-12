@@ -1,0 +1,64 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+html,body
+{
+  width: 100%;
+  height: 100%;
+}
+
+body
+{
+  font-family: calibri;
+  background: rgba(231,231,241,1);
+}
+
+
+.container
+{
+  padding-top: 1px;
+  user-select: none;
+}
+
+.main_container
+{
+  width: 130px;
+  height: 130px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 150px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.nav_name_container
+{
+  width: 70%;
+  padding: 10px 15%;
+  cursor: pointer;
+  transition: all 1s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.right_tick
+{
+  width: 15px;
+  transition: all 1s;
+  transform: scale(0);
+}
+
+.line
+{
+  width:10px;
+  border: 1px solid rgba(54,88,255,1);
+  trasition: all .5s;
+  position:absolute;
+  left: 25px;
+}
